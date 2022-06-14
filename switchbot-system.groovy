@@ -77,10 +77,10 @@ def createChildDevice(id, name, deviceType)
     def child
     try
     {
-        if(!["Bot", "Curtain", "Meter", "Humidifier", "Strip Light"].contains(deviceType.toString()))
+        if(!["Curtain"].contains(deviceType.toString()))
         {
-            logDebug("createChildDevice: deviceType not supported")
-            throw new Exception("deviceType not supported")
+            logDebug("Failed creating chiled, deviceType" + deviceType +  "not supported");
+            throw new Exception("deviceType " + deviceType + " not supported");
         }
             
         return addChildDevice(
