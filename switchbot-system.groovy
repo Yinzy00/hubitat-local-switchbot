@@ -189,6 +189,6 @@ def getDeviceId(networkId){
     return networkId.split("-")[0];
 }
 
-//TODO:
-//Get device states from local api
-//Add support for other devices
+def getRefreshInterval(){
+    return refreshInterval;
+}
