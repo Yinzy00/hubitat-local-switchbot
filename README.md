@@ -20,10 +20,6 @@ Drivers are created using my api based on [node-switchbot](https://www.npmjs.com
 
 **Now you are ready to go!**
 
-## Todo:
-
-- Add device state polling
-
 ## Community
 
 * [SwitchBot (Official website)](https://www.switch-bot.com/)
